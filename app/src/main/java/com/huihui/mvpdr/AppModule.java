@@ -6,6 +6,7 @@ import javax.inject.Singleton;
 
 import dagger.Provides;
 
+
 /**
  * Author: gavin
  * Date: 2016/11/17
@@ -13,6 +14,10 @@ import dagger.Provides;
  * Email:2415580905@qq.com
  */
 public class AppModule {
+
+
+
+
 
     private Application mApplication;
 
