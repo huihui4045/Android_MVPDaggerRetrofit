@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Singleton;
 
+import dagger.Module;
 import dagger.Provides;
 import retrofit.RestAdapter;
 import retrofit.client.OkClient;
@@ -15,7 +16,7 @@ import retrofit.client.OkClient;
 /**
  * Created by Administrator on 2016/11/17 0017.
  */
-
+@Module
 public class ApiServiceModule {
     private static final String ENDPOINT="";
 
